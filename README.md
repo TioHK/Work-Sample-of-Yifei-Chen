@@ -1,6 +1,7 @@
 # Work Sample of Yifei Chen
 
-This is a python work sample of Yifei Chen. This read. me file is for illustration purposes about how to run the code and what to expect.
+This is a Python work sample of Yifei Chen. This read. me file talks about how to run the code and what to expect.
+Unfortunately, since some of the data files contain internal data, the necessary data has been deleted. Therefore, this work sample is only for illustration purposes, and running the codes and getting a final result is not really possible considering the lack of necessary data. 
 
 # How to run the code 
 
@@ -27,18 +28,18 @@ pip install -r requirements.txt
 ```
 
 ## Files to download 
-No matter which way of running the codes you prefer, I recommend you to download the data folder on Git Hub first. And save it to the same directory as you run code using the name 'data'
-Note. In the submitted files, considering the data file size limit, I include the files needed to reproduce the result for the data analysis/visualisation part. However, if you want to run the full version of codes, you will still need to download the GitHub data folder.
+No matter which way of running the codes you prefer, I recommend you download the data folder on Git Hub first. And save it to the same directory as you run code using the name 'data'
+Note. In the submitted files, considering the data file size limit, I include the files needed to reproduce the result for the data analysis/visualization part. However, if you want to run the full version of the codes, you will still need to download the GitHub data folder.
 
 ## First way to run the code: run all of them 
-If you would like to run all the codes from data collection to interactive visualisation, you can run the main.py file (this is in the code folder of the zip package I submitted. This way of running takes time. And it can be run by a command like this:
+If you would like to run all the codes from data collection to interactive visualization, you can run the main.py file (this is in the code folder of the zip package I submitted. This way of running takes time. And it can be run by a command like this:
 ```
 python main.py
 ```
 Note. This exact command may change considering how you download code and where you run it 
 
 ## Second way of running the code: run separately 
-If you only want to see the data collection/cleaning part or only want to see the data analysis/visualization part, you can run the codes in a separate code folders. The codes can be run by using the following command line 
+If you only want to see the data collection/cleaning part or only want to see the data analysis/visualization part, you can run the codes in a separate code file. The codes can be run by using the following command line 
 ```
 python separatecodes/visulizationandanalysis.py
 python separatecodes/cleaningandcollection.py
