@@ -1,7 +1,7 @@
 # Work Sample of Yifei Chen
 
-This is a Python work sample of Yifei Chen. This read. me file talks about how to run the code and what to expect.
-Unfortunately, since some of the data files contain internal data, the necessary data has been deleted. Therefore, this work sample is only for illustration purposes, and running the codes and getting a final result is not really possible considering the lack of necessary data. 
+This is a Python work sample of Yifei Chen. This README file talks about how to run the code and what to expect.
+Unfortunately, since some of the data files contain internal data, the necessary data for running the codes has been deleted. Therefore, this work sample is only for illustration purposes, and running the codes and getting a final result is not really possible considering the lack of necessary data. 
 
 # How to run the code 
 
