@@ -32,7 +32,7 @@ PP_list_2020='PUMA,SERIALNO,PWGTP,AGEP,HINS3,HINS4,SCHL,SEX,POVPIP,RACWHT,WRK,PA
 #PP_list_2017='PUMA,SERIALNO,PWGTP,AGEP,HINS3,HINS4,SCHL,SEX,POVPIP,RACWHT,WRK,PAP,SSIP'
 
 def get_data(HH_list,PP_list,year):
-    api_key = '1d8047e886b89aac8dd078472849d0ff52b5f668'
+    api_key = ''
     state = '06'
     base_url = f'https://api.census.gov/data/{year}/acs/acs5/pums'
     HH_url = f'{base_url}?get={HH_list}&for=state:{state}&key={api_key}'
@@ -82,7 +82,7 @@ location_info.to_csv('data/CASSO.csv')
 #use the address in the csv file and make the final csv file
 list_l = []
 list_ln = []
-api_key1='AIzaSyBR5ySmJaAZSAIwd6LUejMYhE_qWAnmR7c'
+api_key1=''
 for index, row in location_info.iterrows():
     address=row['APIaddress']
     geoapi=f'https://maps.googleapis.com/maps/api/geocode/json?address={address}&key={api_key1}'
